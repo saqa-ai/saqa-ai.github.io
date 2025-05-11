@@ -23,8 +23,14 @@
         }
         h1 {
             font-size: 40px;
-            color: #82aaff;
             margin-bottom: 50px;
+            color: #82aaff;
+        }
+        h2 {
+            font-size: 32px;
+            margin-top: 500px;
+            margin-bottom: 30px;
+            color: #82aaff;
         }
         p {
             font-size: 18px;
@@ -37,6 +43,33 @@
         a {
             color: #a9b8e8;
         }
+        .product-section {
+            margin-top: 80px;
+        }
+        .screenshot-container {
+            position: relative;
+            margin-top: 50px;
+            width: 200%;
+            margin-left: -50%;
+        }
+        .screenshot {
+            width: 100%;
+            border-radius: 8px;
+            display: block;
+        }
+        .gradient-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 60%;
+            background: linear-gradient(to bottom, rgba(30, 32, 48, 0), rgba(30, 32, 48, 0.7) 60%, rgba(30, 32, 48, 1) 100%);
+            border-radius: 0 0 8px 8px;
+        }
+        .highlight {
+            color: #9dc2f0;
+            font-size: 40px;
+        }
     </style>
 </head>
 <body>
@@ -46,6 +79,14 @@
         <p>We believe this is holding back progress.</p>
         <p>Team Saqa AI is ready to solve this and unleash the next era of innovation!</p>
         <p class="quote"> <a href="https://linkedin.com/in/spirovg/">Gregory Spirov</a>, <a href="https://linkedin.com/in/taras-egorov-165055192/">Taras Egorov</a></p>
+        
+        <div class="product-section">
+            <h2>AI builds. <span class="highlight">AI tests</span>. All in your IDE.</h2>
+            <div class="screenshot-container">
+                <img src="content/ide_leppei.jpg" alt="Saqa AI IDE Integration" class="screenshot">
+                <div class="gradient-overlay"></div>
+            </div>
+        </div>
     </div>
 </body>
 </html> 
