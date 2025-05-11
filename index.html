@@ -14,22 +14,22 @@
         
         body {
             font-family: 'BeautifulFont', sans-serif;
-            line-height: 1.5;
+            line-height: 2;
             color: #c8d3f5;
-            max-width: 640px;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 10% 10% 5%;
+            padding: 3% 10% 5%;
             background-color: #1e2030;
         }
         h1 {
             font-size: 40px;
-            margin-bottom: 50px;
+            margin-bottom: 80px;
             color: #82aaff;
         }
         h2 {
             font-size: 32px;
-            margin-top: 200px;
-            margin-bottom: 30px;
+            margin-top: 100px;
+            margin-bottom: 50px;
             color: #82aaff;
         }
         p {
@@ -39,6 +39,7 @@
         .quote {
             font-size: 16px;
             text-align: right;
+            margin-bottom: 250px;
         }
         a {
             color: #a9b8e8;
@@ -48,9 +49,8 @@
         }
         .screenshot-container {
             position: relative;
-            margin-top: 50px;
-            width: 200%;
-            margin-left: -50%;
+            width: 160%;
+            margin-left: -30%;
         }
         .screenshot {
             width: 100%;
@@ -68,8 +68,12 @@
         }
         .highlight {
             color: #a2c8f5;
-            font-size: 45px;
+            font-size: 60px;
         }
+        .subtitle {
+                font-size: 20px;
+                margin-bottom: 50px;
+            }
         @media (max-width: 600px) {
             body {
                 padding: 10% 5% 5%;
@@ -77,7 +81,7 @@
             h1 {
                 font-size: 28px;
                 margin-top: 100px;
-                margin-bottom: 40px;
+                margin-bottom: 20px;
             }
             h2 {
                 font-size: 20px;
@@ -105,19 +109,21 @@
 </head>
 <body>
     <div>
-        <h1>The AI QA engineer</h1>
-        <p>AI already generates code faster than any human. But the revolution is bottlenecked: AI still can't test itself.</p>
-        <p>We believe this is holding back progress.</p>
-        <p>Team Saqa AI is ready to solve this and unleash the next era of innovation!</p>
-        <p class="quote"> <a href="https://linkedin.com/in/spirovg/">Gregory Spirov</a>, <a href="https://linkedin.com/in/taras-egorov-165055192/">Taras Egorov</a></p>
-        
         <div class="product-section">
-            <h2>AI builds. &ensp; <span class="highlight">AI tests</span>. &ensp; All in your IDE.</h2>
+            <h1>AI code. &ensp; <span class="highlight">AI test</span>. &ensp; All in your IDE.</h1>
+            <!-- <p class="subtitle">Generate code. And let us test it in the iOS simulator integrated right in your IDE.</p> -->
             <div class="screenshot-container">
                 <img src="content/ide_200.jpg" alt="Saqa AI IDE Integration" class="screenshot">
                 <div class="gradient-overlay"></div>
             </div>
         </div>
+
+        <h2>Future of Software Development</h2>
+        <p>AI already generates code faster than any human. But the revolution is bottlenecked: AI still can't test itself.</p>
+        <p>We believe this is holding back progress.</p>
+        <p>Team Saqa AI is ready to solve this and unleash the next era of innovation!</p>
+        <p class="quote"> <a href="https://linkedin.com/in/spirovg/">Gregory Spirov</a>, <a href="https://linkedin.com/in/taras-egorov-165055192/">Taras Egorov</a></p>
+        
     </div>
 </body>
 </html> 
